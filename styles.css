@@ -9,14 +9,16 @@
     display: flex;
     justify-content: center;
     border: 1px solid #fff;
-}
-.header{
+  }
+  .header{
     width: 900px;
     display: flex;
     justify-content:space-between;
     border: 1px solid #fff;
-}
-.links{
+    align-items: center;
+    
+  }
+  .links{
     border: 1px solid #fff;
     display: flex;
     justify-content: flex-end;
@@ -25,32 +27,47 @@
     font-weight: normal;
     font-style: normal;
     font-variation-settings:
-        "wdth" 100;
+    "wdth" 100;
     color: #e5e7eb;
-      }
-.header-link-three,
-.header-link-one, .header-link-two{
+  }
+  .header-link-three,
+  .header-link-one, .header-link-two{
     margin-left: 20px;
-}
+  }
 
-.header-logo {
+  .header-logo {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-size: 24px;
     font-style:normal;
     font-variation-settings:
-      "wdth" 100;
-    color: #F9FAF8;
+    "wdth" 100;
+      color: #F9FAF8;
     font-weight: bold;
   }
+  
 .text-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+  .text-button-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     border: 1px solid #fff;
-    background-color: #1F2937;
-    padding: 20px 0;
+  }
+  .left-container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #fff;
+    align-items: center;
+    flex-direction: column;
 }
+
 .awesome-website{
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
@@ -81,16 +98,61 @@ figure.item{
 }
 img{
   width: 100px;
-  height: 100px;
+  height: auto;
   background-color: grey;
 }
 .caption{
   display: block;
 }
+.randinfo{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 36px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-weight: 900 ;
+  border: 1px solid #050000;
+}
 .srandinfo-container{
   height: 400px;
+  justify-content: center;
+  display: flex;
 }
 .placehoder-image{
   width: 200px;
   height: 50px;
+}
+.randinfo{
+  display: flex;
+  justify-content:center;
+}
+.images-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.inspiring-quote-background{
+  display: flex;
+  justify-content: center;
+}
+.inspiring-quote-container{
+  display: flex;
+  justify-content: center;
+}
+.some-rounded-corners{
+  display: flex;  
+  justify-content: center;
+}
+.some-rounded-containers{
+  display: flex;
+  justify-content: center;
+}
+.copyright{
+  display: flex;
+  justify-content: center;
+}
+.copyright-container{
+  display: flex;
+  justify-content:center;
 }
